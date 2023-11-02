@@ -18,16 +18,31 @@
 A package allow you to drag across lines to select a block of text with carets on each line. A few similar packages has been already published, but this one has applied important fixes:
 
 * fixed a problem of inline HTML elements (e.g. Hydrogen),
-* low performance if `Ctrl` is pressed,
-* context menu if pure `Right Mouse Button` is used,
-* add sticky mode with preset shortcut `Alt-Q`,
-* a problem of EOF fixed.
+* fixed a problem of zone near to end of file,
+* fixed low performance if `Ctrl` is pressed,
+* fixed context menu if `Right Mouse Button` without modifier is used,
+* fixed window change with sticky-mode,
+* consider `core.multiCursorOnClick` config,
+* added sticky mode with preset shortcut `Alt-Q`,
+* added status-bar indicator of sticky mode.
 
 ## Installation
 
 To install `block-selection` search for [block-selection](https://web.pulsar-edit.dev/packages/block-selection) in the Install pane of the Pulsar settings or run `ppm install block-selection`.
 
 Alternatively, run `ppm install bacadra/pulsar-block-selection` to install a package directly from Github repository.
+
+## Customize the appearance
+
+The style can be adjusted according to user preferences and the UI/syntax theme in the `styles.less` (File/Stylesheet..) file.
+
+* e.g. crosshair cursor if sticky mode is activated
+
+```less
+atom-text-editor.block-selection {
+  cursor: crosshair;
+}
+```
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 

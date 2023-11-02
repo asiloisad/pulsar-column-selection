@@ -12,6 +12,13 @@
     "column",
     "selection"
   ],
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
   "homepage": "https://github.com/bacadra/pulsar-block-selection",
   "url": "https://github.com/bacadra/pulsar-block-selection",
   "repository": "https://github.com/bacadra/pulsar-block-selection",

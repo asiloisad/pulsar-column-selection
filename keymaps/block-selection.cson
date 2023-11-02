@@ -1,2 +1,2 @@
-"atom-text-editor:not([mini])":
+"atom-workspace":
   "alt-q": "block-section:sticky"
