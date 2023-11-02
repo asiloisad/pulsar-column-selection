@@ -1,0 +1,19 @@
+{
+  "name": "block-selection",
+  "version": "0.0.0",
+  "main": "./lib/main",
+  "description": "Another one mouse block-like selection package",
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },
+  "keywords": [
+    "bacadra",
+    "block",
+    "column",
+    "selection"
+  ],
+  "homepage": "https://github.com/bacadra/pulsar-block-selection",
+  "url": "https://github.com/bacadra/pulsar-block-selection",
+  "repository": "https://github.com/bacadra/pulsar-block-selection",
+  "license": "MIT"
+}
