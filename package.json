@@ -1,6 +1,6 @@
 {
   "name": "block-selection",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/main",
   "description": "Another one mouse block-like selection package",
   "engines": {
