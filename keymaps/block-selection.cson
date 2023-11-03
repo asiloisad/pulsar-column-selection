@@ -1,2 +1,3 @@
-"atom-workspace":
-  "alt-q": "block-section:sticky"
+'atom-workspace':
+  'alt-q' : 'block-section:sticky'
+  'ctrl-q': 'block-section:picker'

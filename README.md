@@ -17,14 +17,15 @@
 
 A package allow you to drag across lines to select a block of text with carets on each line. A few similar packages has been already published, but this one has applied important fixes:
 
-* fixed a problem of inline HTML elements (e.g. Hydrogen),
+* fixed a problem of inline HTML elements, e.g. [Hydrogen](https://github.com/nteract/hydrogen),
 * fixed a problem of zone near to end of file,
 * fixed low performance if `Ctrl` is pressed,
 * fixed context menu if `Right Mouse Button` without modifier is used,
 * fixed window change with sticky-mode,
 * consider `core.multiCursorOnClick` config,
-* added sticky mode with preset shortcut `Alt-Q`,
-* added status-bar indicator of sticky mode.
+* added sticky mode with preset shortcut `Alt-Q` (or `Left Mouse Button` on status-bar icon),
+* added status-bar indicator of sticky mode,
+* added picker mode `Ctrl-Q` (or `Right Mouse Button` on status-bar icon) to selected region by sequence of 2 `Left Mouse Button`, optional `Ctrl` accepted or `Right Mouse Button` to break sequence.
 
 ## Installation
 
