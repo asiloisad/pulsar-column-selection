@@ -2,7 +2,7 @@
   "name": "block-selection",
   "version": "0.0.6",
   "main": "./lib/main",
-  "description": "Another one mouse block-like selection package",
+  "description": "Mouse block selection",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },

@@ -25,7 +25,8 @@ A package allow you to drag across lines to select a block of text with carets o
 * consider `core.multiCursorOnClick` config,
 * added sticky mode with preset shortcut `Alt-Q` (or `Left Mouse Button` on status-bar icon),
 * added status-bar indicator of sticky mode,
-* added picker mode `Ctrl-Q` (or `Right Mouse Button` on status-bar icon) to selected region by sequence of 2 `Left Mouse Button`, optional `Ctrl` accepted or `Right Mouse Button` to break sequence.
+* added picker mode `Ctrl-Q` (or `Right Mouse Button` on status-bar icon) to selected region by sequence of 2 `Left Mouse Button`, optional `Ctrl` accepted or `Right Mouse Button` to break sequence,
+* keyboard commands of single cursor movement has been added.
 
 ## Installation
 
