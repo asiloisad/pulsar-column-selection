@@ -1,6 +1,6 @@
 {
   "name": "block-selection",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./lib/main",
   "description": "Mouse block selection",
   "engines": {
