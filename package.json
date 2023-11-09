@@ -1,5 +1,5 @@
 {
-  "name": "block-selection",
+  "name": "column-selection",
   "version": "0.0.8",
   "main": "./lib/main",
   "description": "Mouse block selection",
