@@ -1,21 +1,21 @@
-# block-selection
+# column-selection
 
 <p align="center">
-  <a href="https://github.com/bacadra/pulsar-block-selection/tags">
-  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-block-selection?style=for-the-badge&label=Latest&color=blue" alt="Latest">
+  <a href="https://github.com/bacadra/pulsar-column-selection/tags">
+  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-column-selection?style=for-the-badge&label=Latest&color=blue" alt="Latest">
   </a>
-  <a href="https://github.com/bacadra/pulsar-block-selection/issues">
-  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-block-selection?style=for-the-badge&color=blue" alt="OpenIssues">
+  <a href="https://github.com/bacadra/pulsar-column-selection/issues">
+  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-column-selection?style=for-the-badge&color=blue" alt="OpenIssues">
   </a>
-  <a href="https://github.com/bacadra/pulsar-block-selection/blob/master/package.json">
-  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-block-selection?style=for-the-badge&color=blue" alt="Language">
+  <a href="https://github.com/bacadra/pulsar-column-selection/blob/master/package.json">
+  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-column-selection?style=for-the-badge&color=blue" alt="Language">
   </a>
-  <a href="https://github.com/bacadra/pulsar-block-selection/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/bacadra/pulsar-block-selection?style=for-the-badge&color=blue" alt="Licence">
+  <a href="https://github.com/bacadra/pulsar-column-selection/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/bacadra/pulsar-column-selection?style=for-the-badge&color=blue" alt="Licence">
   </a>
 </p>
 
-A package allow you to drag across lines to select a block of text with carets on each line. A few similar packages has been already published, but this one has applied important fixes:
+A package allow you to drag across lines to select a column of text with carets on each line. A few similar packages has been already published, but this one has applied important fixes:
 
 * fixed a problem of inline HTML elements, e.g. [Hydrogen](https://github.com/nteract/hydrogen),
 * fixed a problem of zone near to end of file,
@@ -30,9 +30,9 @@ A package allow you to drag across lines to select a block of text with carets o
 
 ## Installation
 
-To install `block-selection` search for [block-selection](https://web.pulsar-edit.dev/packages/block-selection) in the Install pane of the Pulsar settings or run `ppm install block-selection`.
+To install `column-selection` search for [column-selection](https://web.pulsar-edit.dev/packages/column-selection) in the Install pane of the Pulsar settings or run `ppm install column-selection`.
 
-Alternatively, run `ppm install bacadra/pulsar-block-selection` to install a package directly from Github repository.
+Alternatively, run `ppm install bacadra/pulsar-column-selection` to install a package directly from Github repository.
 
 ## Customize the appearance
 
@@ -41,7 +41,7 @@ The style can be adjusted according to user preferences and the UI/syntax theme 
 * e.g. crosshair cursor if sticky mode is activated
 
 ```less
-atom-text-editor.block-selection {
+atom-text-editor.column-selection {
   cursor: crosshair;
 }
 ```

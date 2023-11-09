@@ -2,13 +2,13 @@
   "name": "column-selection",
   "version": "0.0.9",
   "main": "./lib/main",
-  "description": "Mouse block selection",
+  "description": "Mouse column selection",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
   "keywords": [
     "bacadra",
-    "block",
+    "column",
     "column",
     "selection"
   ],
@@ -19,8 +19,8 @@
       }
     }
   },
-  "homepage": "https://github.com/bacadra/pulsar-block-selection",
-  "url": "https://github.com/bacadra/pulsar-block-selection",
-  "repository": "https://github.com/bacadra/pulsar-block-selection",
+  "homepage": "https://github.com/bacadra/pulsar-column-selection",
+  "url": "https://github.com/bacadra/pulsar-column-selection",
+  "repository": "https://github.com/bacadra/pulsar-column-selection",
   "license": "MIT"
 }
