@@ -32,7 +32,7 @@ A package allow you to drag across lines to select a column of text with carets 
 
 To install `column-selection` search for [column-selection](https://web.pulsar-edit.dev/packages/column-selection) in the Install pane of the Pulsar settings or run `ppm install column-selection`.
 
-Alternatively, run `ppm install bacadra/pulsar-column-selection` to install a package directly from Github repository.
+Alternatively, you can run `ppm install bacadra/pulsar-column-selection` to install a package directly from the Github repository.
 
 ## Customize the appearance
 
