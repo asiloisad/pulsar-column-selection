@@ -15,19 +15,19 @@
   </a>
 </p>
 
-A package allow you to drag across lines to select a column of text with carets on each line. A few similar packages has been already published, but this one has applied important fixes:
+A package allows you to drag across lines to select a column of text, with carets on each line. A few similar packages have already been released, but this one has applied important fixes:
 
-* fixed a problem of inline HTML elements, e.g. [Hydrogen](https://github.com/nteract/hydrogen),
-* fixed a problem of zone near to end of file,
-* fixed low performance if `Ctrl` is pressed,
-* fixed context menu if `Right Mouse Button` without modifier is used,
-* fixed window change with sticky-mode,
-* consider `core.multiCursorOnClick` config,
-* added sticky mode with preset shortcut `Alt-Q` (or `Left Mouse Button` on status-bar icon),
-* added status-bar indicator of sticky mode,
-* added picker mode `Ctrl-Q` (or `Right Mouse Button` on status-bar icon) to selected region by sequence of 2 `Left Mouse Button`, optional `Ctrl` accepted or `Right Mouse Button` to break sequence,
-* added strict mode `Ctrl-Alt-Q` (or `Middle Mouse Button` on status-bar icon) to deal with selection behaviour if mouse start column is equal to mouse end column,
-* keyboard commands of single cursor movement has been added.
+* fixed a problem with inline HTML elements, e.g. [Hydrogen](https://github.com/nteract/hydrogen),
+* fixed a problem with zone near end of file,
+* fixed low performance when pressing `Ctrl`,
+* fixed context menu when `Right Mouse Button` is used without modifier,
+* fixed window switching with sticky mode,
+* consider `core.multiCursorOnClick` configuration,
+* added sticky mode with default shortcut `Alt-Q` (or `Left Mouse Button` on statusbar icon),
+* added status bar indicator for sticky mode,
+* added picker mode `Ctrl-Q` (or `Right Mouse Button` on status bar icon) to selected region by sequence of 2 `Left Mouse Button`, optional `Ctrl` accepted or `Right Mouse Button` to break sequence,
+* added strict mode `Ctrl-Alt-Q` (or `Middle Mouse Button` on status bar icon) to handle selection behaviour when mouse start column is equal to mouse end column,
+* added keyboard commands for single cursor movement.
 
 ## Installation
 
