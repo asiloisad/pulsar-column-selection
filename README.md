@@ -26,6 +26,7 @@ A package allow you to drag across lines to select a column of text with carets 
 * added sticky mode with preset shortcut `Alt-Q` (or `Left Mouse Button` on status-bar icon),
 * added status-bar indicator of sticky mode,
 * added picker mode `Ctrl-Q` (or `Right Mouse Button` on status-bar icon) to selected region by sequence of 2 `Left Mouse Button`, optional `Ctrl` accepted or `Right Mouse Button` to break sequence,
+* added strict mode `Ctrl-Alt-Q` (or `Middle Mouse Button` on status-bar icon) to deal with selection behaviour if mouse start column is equal to mouse end column,
 * keyboard commands of single cursor movement has been added.
 
 ## Installation
