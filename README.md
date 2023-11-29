@@ -24,6 +24,7 @@ A package allows you to drag across lines to select a column of text, with caret
 * fixed window switching with sticky mode,
 * consider `core.multiCursorOnClick` configuration,
 * added sticky mode with default shortcut `Alt-Q` (or `Left Mouse Button` on statusbar icon),
+* turn off cursor-line background color while selecting,
 * added status bar indicator for sticky mode,
 * added picker mode `Ctrl-Q` (or `Right Mouse Button` on status bar icon) to selected region by sequence of 2 `Left Mouse Button`, optional `Ctrl` accepted or `Right Mouse Button` to break sequence,
 * added keyboard commands for single cursor movement.
@@ -38,7 +39,7 @@ Alternatively, you can run `ppm install bacadra/pulsar-column-selection` to inst
 
 The style can be adjusted according to user preferences and the UI/syntax theme in the `styles.less` (File/Stylesheet..) file.
 
-* e.g. crosshair cursor if sticky mode is activated
+* e.g. crosshair cursor while selecting
 
 ```less
 atom-text-editor.column-selection {
