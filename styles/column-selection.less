@@ -8,6 +8,8 @@
   color: @text-color-success;
 }
 
-atom-text-editor.column-selection .line.cursor-line {
-  background-color: inherit;
+atom-text-editor.column-selection {
+  .line.cursor-line, .gutter .line-number.cursor-line {
+    background-color: inherit;
+  }
 }
