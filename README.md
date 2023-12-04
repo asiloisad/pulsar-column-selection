@@ -27,6 +27,7 @@ A package allows you to drag across lines to select a column of text, with caret
 * turn off cursor-line background color while selecting,
 * added status bar indicator for sticky mode,
 * added picker mode `Ctrl-Q` (or `Right Mouse Button` on status bar icon) to selected region by sequence of 2 `Left Mouse Button`, optional `Ctrl` accepted or `Right Mouse Button` to break sequence,
+* added edge text editor scrolling,
 * added keyboard commands for single cursor movement.
 
 ## Installation
