@@ -1,6 +1,6 @@
 # column-selection
 
-A package allows you to drag across lines to select a column of text, with carets on each line. A few similar packages have already been released, but this one has applied important fixes:
+Create multiple selections across lines. A package allows you to drag across lines to select a column of text, with carets on each line. A few similar packages have already been released, but this one has applied important fixes:
 
 - fixed a problem with inline HTML elements, e.g. [Hydrogen](https://github.com/nteract/hydrogen),
 - fixed a problem with zone near end of file,
