@@ -17,15 +17,15 @@ Create multiple selections across lines. A package allows you to drag across lin
 
 An example of sticky mode:
 
-![sticky](https://github.com/bacadra/pulsar-column-selection/blob/master/assets/sticky.gif?raw=true)
+![sticky](https://github.com/asiloisad/pulsar-column-selection/blob/master/assets/sticky.gif?raw=true)
 
 An example of picker mode:
 
-![picker](https://github.com/bacadra/pulsar-column-selection/blob/master/assets/picker.gif?raw=true)
+![picker](https://github.com/asiloisad/pulsar-column-selection/blob/master/assets/picker.gif?raw=true)
 
 ## Installation
 
-To install `column-selection` search for [column-selection](https://web.pulsar-edit.dev/packages/column-selection) in the Install pane of the Pulsar settings or run `ppm install column-selection`. Alternatively, you can run `ppm install bacadra/pulsar-column-selection` to install a package directly from the Github repository.
+To install `column-selection` search for [column-selection](https://web.pulsar-edit.dev/packages/column-selection) in the Install pane of the Pulsar settings or run `ppm install column-selection`. Alternatively, you can run `ppm install asiloisad/pulsar-column-selection` to install a package directly from the Github repository.
 
 ## Customize the appearance
 
