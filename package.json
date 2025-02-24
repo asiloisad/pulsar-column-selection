@@ -19,5 +19,40 @@
         "^1.0.0": "consumeStatusBar"
       }
     }
+  },
+  "configSchema": {
+    "mouseButton": {
+      "order": 1,
+      "title": "Mouse button",
+      "description": "The mouse button that triggers the column selection. If `None`, the column selection will still be used in sticky mode and picker mode.",
+      "type": "integer",
+      "enum": [
+        { "description": "None", "value": 0 },
+        { "description": "Left", "value": 1 },
+        { "description": "Middle", "value": 2 },
+        { "description": "Right", "value": 3 }
+      ],
+      "default": 3
+    },
+    "selectKey": {
+      "order": 2,
+      "title": "Select key",
+      "description": "The additional key required to trigger column selection.",
+      "type": "integer",
+      "enum": [
+        { "description": "None", "value": 0 },
+        { "description": "Shift", "value": 1 },
+        { "description": "Alt", "value": 2 },
+        { "description": "Ctrl", "value": 3 }
+      ],
+      "default": 0
+    },
+    "statusBar": {
+      "order": 3,
+      "title": "Status bar icon",
+      "description": "Show sticky status icon in the status bar.",
+      "type": "boolean",
+      "default": true
+    }
   }
 }

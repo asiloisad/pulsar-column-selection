@@ -25,7 +25,7 @@ An example of picker mode:
 
 ## Installation
 
-To install `column-selection` search for [column-selection](https://web.pulsar-edit.dev/packages/column-selection) in the Install pane of the Pulsar settings or run `ppm install column-selection`. Alternatively, you can run `ppm install asiloisad/pulsar-column-selection` to install a package directly from the Github repository.
+To install `column-selection` search for [column-selection](https://web.pulsar-edit.dev/packages/column-selection) in the Install pane of the Pulsar settings or run `ppm install column-selection`. Alternatively, you can run `ppm install asiloisad/pulsar-column-selection` to install a package directly from the GitHub repository.
 
 ## Customize the appearance
 
