@@ -24,7 +24,7 @@
     "mouseButton": {
       "order": 1,
       "title": "Mouse button",
-      "description": "The mouse button that triggers the column selection. If `None`, the column selection will still be used in sticky mode and picker mode.",
+      "description": "The mouse button that triggers the column selection. If `None`, the column selection can used in sticky mode or picker mode.",
       "type": "integer",
       "enum": [
         { "description": "None", "value": 0 },
@@ -50,7 +50,7 @@
     "statusBar": {
       "order": 3,
       "title": "Status bar icon",
-      "description": "Show sticky status icon in the status bar.",
+      "description": "Show status icon in the status bar.",
       "type": "boolean",
       "default": true
     }
