@@ -14,6 +14,7 @@ Create multiple selections across lines by dragging. Enables column/block select
 - **Edge scrolling**: Auto-scroll when dragging near editor edges.
 - **Status indicator**: Shows current mode in the status bar.
 - **Precise positioning**: Temporarily disables atomic soft tabs during selection for accurate column alignment.
+- **High performance**: Reuses existing selections and uses `mergeIntersectingSelections` for efficient updates, avoiding costly recreation of selection objects during drag.
 
 > **Tip**: For the best column selection experience, consider disabling atomic soft tabs globally in Settings > Editor > Atomic Soft Tabs. This prevents cursor snapping to tab boundaries and allows precise positioning at any column.
 
