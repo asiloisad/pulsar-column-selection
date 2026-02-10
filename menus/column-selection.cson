@@ -1,0 +1,14 @@
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      {
+        label: 'Column Selection'
+        submenu: [
+          { label: 'Toglge Sticky mode', command: 'column-selection:sticky' }
+          { label: 'Toglge Picker mode', command: 'column-selection:picker' }
+        ]
+      }
+    ]
+  }
+]
