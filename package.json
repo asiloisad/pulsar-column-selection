@@ -1,6 +1,6 @@
 {
   "name": "column-selection",
-  "description": "Create multiple selections across lines",
+  "description": "Create multiple selections across lines by dragging",
   "repository": "https://github.com/asiloisad/pulsar-column-selection",
   "keywords": [
     "column",
