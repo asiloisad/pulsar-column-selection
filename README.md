@@ -16,6 +16,7 @@ Create multiple selections across lines by dragging. Enables column/block select
 - **Precise positioning**: Temporarily disables atomic soft tabs during selection for accurate column alignment.
 - **High performance**: Reuses existing selections and uses `mergeIntersectingSelections` for efficient updates, avoiding costly recreation of selection objects during drag.
 - **Inline blocks support**: Works correctly with inline block decorations (e.g., hydrogen-next output results).
+- **cursor-leader compatibility**: Works correctly alongside [cursor-leader](https://github.com/asiloisad/pulsar-cursor-leader), including when power mode is active.
 
 **Note**: For the best column selection experience, consider disabling atomic soft tabs globally in Settings > Editor > Atomic Soft Tabs. This prevents cursor snapping to tab boundaries and allows precise positioning at any column.
 
