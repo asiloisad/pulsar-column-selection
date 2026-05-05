@@ -13,6 +13,7 @@ Create multiple selections across lines by dragging. Enables column/block select
 - **Picker mode**: Select region with two clicks using command or right-click status bar item.
 - **Edge scrolling**: Auto-scroll when dragging near editor edges.
 - **Status indicator**: Shows current mode in the status bar.
+- **Atomic dealer**: The atomic soft tabs are temporary disabled while selecting.
 - **Precise positioning**: Temporarily disables atomic soft tabs during selection for accurate column alignment.
 - **High performance**: Reuses existing selections and uses `mergeIntersectingSelections` for efficient updates, avoiding costly recreation of selection objects during drag.
 - **Inline blocks support**: Works correctly with inline block decorations (e.g., hydrogen-next output results).
